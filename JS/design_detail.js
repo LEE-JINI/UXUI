@@ -13,7 +13,7 @@ function jumpTo(thisIndex) {
         return;
     }
 
-    // 이벤트 타깃에 active 클래스를 추가
+    // 이벤트 타깃에 active 클래스를 추가 
     img_change[thisIndex].classList.add('active');
 
     // 이전 인덱스를 가진 이벤트 타깃의 active클래스를 제거

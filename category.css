@@ -37,7 +37,7 @@ div label a div img {
 }
 
 div label a div img:hover {
-    transform: scale(1.15);
+    transform: scale(1.15); 
     transition: transform .5s;
 }
 

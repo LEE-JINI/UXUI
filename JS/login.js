@@ -11,7 +11,7 @@ form.addEventListener('submit', (e) => {
   let id = formData.get('id');
   let pw = formData.get('pw');
 
- // 아이디 유효성
+ // 아이디 유효성 
  if (!id.trim()) {
     errorHandler('아이디를 입력해주세요', id_err);
   } else if (id.length < 3) {

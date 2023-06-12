@@ -1,5 +1,5 @@
 
-// nav 공통
+// nav 공통 
 function nav() {
     return `
       <nav class="nav">

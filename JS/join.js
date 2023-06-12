@@ -31,7 +31,7 @@ form.addEventListener('submit', (e) => {
     errorHandler(null, pw_err);
   }
 
-  // 이름 유효성
+  // 이름 유효성 
   if (!name.trim()) {
     errorHandler('이름을 입력하세요', name_err);
   } else {
