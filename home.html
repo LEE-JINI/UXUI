@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINK</title>
+</head>
+
+<body>
+
+    <!-- 네비 게이션 -->
+    <script src="JS/home.js"></script>
+    <nav id="nav"></nav>
+    <script>
+        var container = document.getElementById('nav');
+        container.innerHTML = nav();
+    </script>
+
+
+
+    <!-- 메인 이미지 -->
+    <section>
+        <div class="all">
+
+            <div id="con">
+                <a href="design.html"> <img class="main_img" src="link_media/event_img.png" alt="event_img"></a>
+                <a href="#img_cate"> <img class="main_img" src="link_media/event_img2.png" alt="event_img2"></a>
+                <a href="#review"> <img class="main_img" src="link_media/event_img3.png" alt="event_img3"></a>
+            </div>
+
+            <button id="prev" class="hidden" onclick="navigateTo(-1)"><img src="link_media/left.png"></button>
+            <button id="next" onclick="navigateTo(1)"><img src="link_media/right.png"></button>
+
+            <div class="indicator">
+                <span class="dot dot_active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+        <script src="JS/home.js"></script>
+    </section>
+
+
+    <!-- 페이지 설명 -->
+    <section>
+        <div class="link">
+            <p class="link_img"><img src="link_media/LINK.png" alt=""></p>
+            <p class="font_basic">디자인, 웹/앱개발, 영상 제작 등 다양한 분야를 연결하여 제공하는 외주 사이트를 의미하는 단어로, </p>
+            <p class="font_basic"> 전문가들이 링크(Link)되어 협력하여 최고의 결과물을 만들어냅니다.</p>
+        </div>
+    </section>
+
+
+    <!-- 이미지 카테고리 -->
+    <section id="img_cate">
+        <div class="item_cate">
+            <div>
+                <a href="design.html"><img id="design" src="link_media/design.png" alt="design" class="item_img"></a>
+                <a href="coding.html"><img id="coding" src="link_media/coding.png" alt="coding" class="item_img"></a>
+                <a href="video.html"><img id="video" src="link_media/video.png" alt="video" class="item_img"></a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- 프로그램 -->
+    <section>
+        <p class="font_basic"> Program </p>
+        <div class="container">
+            <div class="slide-container">
+                <div class="slide-image"> <img src="link_media/CC.png" alt="cc" class="program_img"> </div>
+                <div class="slide-image"> <img src="link_media/인디자인.png" alt="인디자인" class="program_img"> </div>
+                <div class="slide-image"> <img src="link_media/일러스트.png" alt="일러스트" class="program_img"> </div>
+                <div class="slide-image"> <img src="link_media/프리미어.png" alt="프리미어" class="program_img"> </div>
+                <div class="slide-image"> <img src="link_media/프앤.png" alt="프앤" class="program_img"> </div>
+                <div class="slide-image"> <img src="link_media/자바.png" alt="자바" class="program_img"> </div>
+                <div class="slide-image"> <img src="link_media/스프링.png" alt="스프링" class="program_img"> </div>
+                <div class="slide-image"> <img src="link_media/안스.png" alt="안스" class="program_img"> </div>
+            </div>
+            <div class="slide-container">
+                <div class="slide-image"> <img src="link_media/CC.png" alt="cc" class="program_img"> </div>
+                <div class="slide-image"> <img src="link_media/인디자인.png" alt="인디자인" class="program_img"> </div>
+                <div class="slide-image"> <img src="link_media/일러스트.png" alt="일러스트" class="program_img"> </div>
+                <div class="slide-image"> <img src="link_media/프리미어.png" alt="프리미어" class="program_img"> </div>
+                <div class="slide-image"> <img src="link_media/프앤.png" alt="프앤" class="program_img"> </div>
+                <div class="slide-image"> <img src="link_media/자바.png" alt="자바" class="program_img"> </div>
+                <div class="slide-image"> <img src="link_media/스프링.png" alt="스프링" class="program_img"> </div>
+                <div class="slide-image"> <img src="link_media/안스.png" alt="안스" class="program_img"> </div>
+            </div>
+            <div class="slide-container">
+                <div class="slide-image"> <img src="link_media/CC.png" alt="cc" class="program_img"> </div>
+                <div class="slide-image"> <img src="link_media/인디자인.png" alt="인디자인" class="program_img"> </div>
+                <div class="slide-image"> <img src="link_media/일러스트.png" alt="일러스트" class="program_img"> </div>
+                <div class="slide-image"> <img src="link_media/프리미어.png" alt="프리미어" class="program_img"> </div>
+                <div class="slide-image"> <img src="link_media/프앤.png" alt="프앤" class="program_img"> </div>
+                <div class="slide-image"> <img src="link_media/자바.png" alt="자바" class="program_img"> </div>
+                <div class="slide-image"> <img src="link_media/스프링.png" alt="스프링" class="program_img"> </div>
+                <div class="slide-image"> <img src="link_media/안스.png" alt="안스" class="program_img"> </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 리뷰 -->
+    <section id="review">
+        <p class="font_basic"> Review </p>
+        <div class="review_rec">
+            <div>
+                <p class="review_item"> <img src="link_media/people.png" width="25px" height="25px"> &nbsp;&nbsp;너무 마음에
+                    들어요 </p>
+                <p class="review_item" style="left: 40%;"> <img src="link_media/people.png" width="25px" height="25px">
+                    &nbsp;&nbsp; 피드백이 빨라요 </p>
+                <p class="review_item" style="left: 60%;"> <img src="link_media/people.png" width="25px" height="25px">
+                    &nbsp;&nbsp; 쉽게 의뢰 가능해요 </p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p class="copyright">
+            Copyright © 2023 NAJIN Inc. All rights reserved.
+        </p>
+    </footer>
+
+
+</body>
+
+</html>

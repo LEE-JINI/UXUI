@@ -1,0 +1,58 @@
+div ul li {
+    list-style: none;
+}
+
+div ul li a {
+    text-decoration-line: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+div ul li a:visited {
+    color: black;
+}
+
+div label a:visited {
+    color: rgb(47, 47, 47);
+}
+
+div label:hover {
+    background-color: black;
+}
+
+div label a div {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    color: black;
+}
+
+div label a div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform:scale(1.0);        
+    transition: transform .5s; 
+}
+
+div label a div img:hover {
+    transform: scale(1.15);
+    transition: transform .5s;
+}
+
+.div_img{
+    width: 200px; height: 150px; border: 1px solid rgb(213, 213, 213); border-radius: 10px; margin-top: 11.5rem;
+}
+
+.div_img2{
+    width: 200px; height: 150px; border: 1px solid rgb(213, 213, 213); border-radius: 10px; margin-top: 3rem;
+}
+
+.img{
+    object-fit: cover; width: 200px; height: 150px;
+}
+
+.p{
+    font-weight: bold; text-align: right;
+}
